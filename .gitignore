@@ -1,6 +1,8 @@
 .DS_Store
 node_modules/
 dev/
+app/github.js
+app/locations.json
 github.js
 locations.js
 locations.json
