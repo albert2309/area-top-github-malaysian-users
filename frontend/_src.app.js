@@ -93,9 +93,6 @@ var vm = new Vue({
 
 			for ( var i=0; i<this.data_items.length; i++ ) {
 
-				// Limit show to n users
-				if ( i >= 50 ) { break; }
-
 				var item = this.data_items[i];
 
 					item['name'] = (!item['name']) ? item['login'] : item['name'];
