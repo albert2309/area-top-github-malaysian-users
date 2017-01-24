@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="Content-Language" content="en" />
 	<title>Top GitHub Users from a given geographical area population.</title>
-	<meta name="description" content="Top GitHub Users from a given geographical area population. ( Area Top GitHub Users )" />
+	<meta name="description" content="Top GitHub Users from Malaysia. ( Area Top Malaysia GitHub Users )" />
 	<meta name="keywords" content="Github, rank, ranking, top, users, area, population" />
 	<meta name="author" content="Jorge Moreno aka moro, www.moro.es (@alterebro)" />
 	<meta name="HandheldFriendly" content="True" />
@@ -56,7 +56,7 @@
 
 <div id="app">
 	<header>
-		<h1><i class="fa fa-github"></i> <a href="#" v-on:click="enroute(0)"><strong>GitHub Top Users</strong> Area Ranking</a></h1>
+		<h1><i class="fa fa-github"></i> <a href="#" v-on:click="enroute(0)"><strong>GitHub Top Malaysia Users</strong> Area Ranking</a></h1>
 
 		<select id="location-selector" v-if="data_json.items.length > 1" v-on:change="enroute()" v-model="current_location">
 			<option value="">Global</option>
@@ -141,6 +141,8 @@
 		<p>
 			<small>
 			<strong>@alterebro 2016</strong> &mdash; <a href="https://github.com/alterebro/area-top-github-users">github.com/alterebro/area-top-github-users</a>
+				<br />
+			<strong>modified by @mohd_shahril_96 to show only Malaysia data</strong>
 			</small>
 		</p>
 	</footer>
